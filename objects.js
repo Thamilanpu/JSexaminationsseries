@@ -10,6 +10,7 @@ let person={
     
 }
 console.log("Hello, my name is "+person.name);
+console.log(person);
 
 // q3
 function greet(greetstudent) {
