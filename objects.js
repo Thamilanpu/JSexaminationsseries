@@ -7,6 +7,7 @@ let person={
     name:"Thamilanpu",
     age:21,
     gender:"male"
+  
     
 }
 console.log("Hello, my name is "+person.name);
@@ -30,7 +31,7 @@ delete person.gender;
 console.log(person);
 
 //q7
-
+console.log(person.hasOwnProperty("whether"));
 
 //q8
 let student={
@@ -41,3 +42,31 @@ let courses ={
 }
 let studentcourse = Object.assign({}, student, courses);
 console.log(studentcourse);
+
+//q9
+if (person.hasOwnProperty("whether")) {
+    console.log("Address is there "+ address);}
+    else{
+        console.log("Address not found");
+    }
+
+
+
+    //q10
+
+    let book={
+        title:"js",
+        author:"PS",
+        year:2028,
+       
+
+    }
+    console.log(JSON.stringify(book) );
+
+    //q11
+    let students=[
+        {name:"Thamilithan",
+        age:21,
+        gpa:10,}
+    ]
+    console.log(students);
